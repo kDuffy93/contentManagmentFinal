@@ -1,0 +1,227 @@
+html {
+    margin: 0 !important;
+}
+
+body {
+    margin: 0px;
+    background-color: #f9f9f9;
+
+}
+
+.menu-main-nav-container {
+    height: fit-content;
+}
+
+header {
+    display: flex !important;
+    align-items: center;
+    height: 125px;
+    background-color: #f9f9f9;
+    justify-content: space-around;
+
+
+}
+
+
+.menu-main-container {
+    display: flex;
+    align-items: center;
+}
+
+header div {
+    height: 115px;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.logo-container {
+    width: 33%;
+}
+
+
+header div img, footer div img {
+    height: 100% !important;
+}
+
+header>nav {
+    display: flex;
+    min-width: 33%;
+    height: min-content;
+    padding-right: 5%;
+}
+
+.menu {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    padding: 0px 10px;
+}
+
+
+.entry-content {
+    display: flex;
+
+    gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 0;
+
+}
+
+.trips-container {
+    
+display: flex;
+    gap: 5%;
+    margin: 0 0 !important;
+    margin-top:2.5vh !important;
+    padding: 0 0 !important;
+    max-width: unset !important;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.trip-container{
+    padding: 5vh 1vw;
+    margin:2.5vh 0 !important;
+
+    flex: 0 0 42.5% !important;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+/* img stuff */
+.trip-container >div > a{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+}
+
+.trip-container >div > a >img{
+    align-self: center;
+    justify-self: center;
+    width:100% !important;
+    height:100% !important;
+    max-width: 600px !important;
+    max-height:345px !important;
+}
+/* center title*/
+.trip-container >div:nth-of-type(2) > h4{
+    text-align: center;
+
+}
+
+.endDate {
+    margin-left: 5vw;
+}
+
+
+
+
+.tripSingle {
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tripSingle>div {
+    flex: 0 0 45%;
+}
+
+.tripSingle>div:first-of-type {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tripSingle>div:last-of-type {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.masthead, .trip-masthead{
+    height:150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.masthead{
+    align-items: flex-start;
+}
+
+
+
+
+.trip-masthead > h1 , .masthead > div > h1{
+    width: fit-content;
+    height: fit-content;
+}
+.masthead > div > h1{
+
+color:aliceblue;
+}
+
+footer{
+    max-height: clamp(125px, 8vh, 150px);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5vh;
+}
+footer > aside{
+    margin-left:12px;
+
+}
+footer > aside >  nav > div > ul {
+    flex-direction: column;
+    margin-bottom: 2.5vh;
+    
+}
+footer > div{
+    margin-right:12px;
+
+}
+footer>div{
+    width: 8.8125% !important;
+}
+
+
+
+/* for the featured product section */ 
+
+.featuredProductSection{
+
+    width:80%;
+    margin-left:10%;
+
+}
+
+.featuredProductSection > div > ul > li > a > img {
+    width: 50%;
+    height: 50%;
+    max-width: clamp(375px, 20%, 425px);
+    max-height: clamp(375px, 20%, 425px); 
+    min-width: clamp(375px, 20%, 425px);
+    min-height: clamp(375px, 20%, 425px);
+}
+
+
+.acf-row-one{
+ width: 40%;
+ margin-left: 15%;
+}
